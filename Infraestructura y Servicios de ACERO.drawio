@@ -1,0 +1,579 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.1">
+  <diagram name="Página-1" id="CnfafAHqDuQhHjIK7ZDh">
+    <mxGraphModel dx="6407" dy="4835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1870" width="3867" x="-1597" y="-2300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-1" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;align=left;labelBackgroundColor=none;" value="VSERVER&lt;div&gt;Tipo:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Físico&lt;/span&gt;&lt;/div&gt;&lt;div&gt;IP:10.11.20.20&lt;/div&gt;&lt;div&gt;Procesador: 2 Intel Xeon Silver 4310 CPU @ 2.10GHz (48 Cores)&lt;/div&gt;&lt;div&gt;RAM: 64 GB&lt;/div&gt;&lt;div&gt;Disco Duro: 4 TB&lt;br&gt;S.O. Windows Server 2022 Standard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="-760" y="-1610" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-9" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;labelBackgroundColor=none;" value="BDSERVER&lt;div&gt;10.11.20.12&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IP: 10.11.20.12&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 8 cores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 16 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 500 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O.&amp;nbsp;Windows Server 2019 Standard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="68" x="-710" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-41" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" target="IiKdO6yPKxUXOVUFr1vI-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-544" y="-1080" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-17" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;labelBackgroundColor=none;" value="SAGASERVER&lt;div&gt;10.11.20.11&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IP: 10.11.20.11&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 8 cores&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RAM: 10 GB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Disco Duro: 500 GB&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O.&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Windows Server 2019 Standard&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="68" x="-500" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-27" connectable="0" parent="1" style="group;align=center;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="85" width="75" x="-326" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-28" parent="IiKdO6yPKxUXOVUFr1vI-27" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;labelBackgroundColor=none;" value="PASSBOLTSERVER&lt;div&gt;10.11.20.30&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo:&lt;span&gt;&amp;nbsp;&lt;span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IP: 10.11.20.30&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 1 core&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 2GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 50 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O.&amp;nbsp;Ubuntu 22.04.4 LTS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="44.8" x="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-29" parent="IiKdO6yPKxUXOVUFr1vI-27" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Operating_System__Flat_-2035/linux-751.svg" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="51" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-33" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;labelBackgroundColor=none;" value="SISROD200&lt;div&gt;10.11.20.200&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IP: 10.11.20.200&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 4 core&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 10 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 450 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O.&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Windows Server 2012 R Standard&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="68" x="-130" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-34" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;labelBackgroundColor=none;" value="SISROD25&lt;div&gt;10.11.20.13&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IP: 10.11.20.13&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 8 core&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RAM: 10 GB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Disco Duro: 500 GB&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O. Windows Server 2022 Standard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="68" x="87" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-36" edge="1" parent="1" source="IiKdO6yPKxUXOVUFr1vI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="IiKdO6yPKxUXOVUFr1vI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-40" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Just_Drive-2807/1403708877_External_Drive-Black-1008.png" value="RODALL-NAS&lt;div&gt;10.11.20.100&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo: NAS Físico&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 2 cores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;RAM: 8 GB&lt;/div&gt;&lt;div&gt;Disco Duro: 1.5 TB&lt;/div&gt;&lt;div&gt;S.O.: DSM 7.1.1-42962 (Propietario de&lt;/div&gt;&lt;div&gt;Synology)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="89" width="89" x="-589" y="-870" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-42" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelBackgroundColor=none;" value="FORTINET&lt;br&gt;10.11.21&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.1&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo: Firewall Físico&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IP: 10.11.21.1&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Procesador:&amp;nbsp;ARMv8 (8 cores)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 4 GB&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Disco Duro: No Disponible&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;S.O.&amp;nbsp;FortiGate-80F v7.4.11&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="-752.8" y="-2270" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-43" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" value="SWITCH GENERAL" vertex="1">
+          <mxGeometry height="51" width="74.4" x="-767.2" y="-1980" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-44" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_24_port_L2_POE.svg;" value="SWITCH A" vertex="1">
+          <mxGeometry height="51" width="74.4" x="-767.2" y="-1810" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-45" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_24_port_L2_POE.svg;" value="SWITCH B" vertex="1">
+          <mxGeometry height="51" width="74.4" x="-632" y="-1810" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-46" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_24_port_L2_POE.svg;" value="SWITCH C" vertex="1">
+          <mxGeometry height="51" width="74.4" x="-500" y="-1810" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-47" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_24_port_L2_POE.svg;" value="SWITCH D" vertex="1">
+          <mxGeometry height="51" width="74.4" x="-360" y="-1810" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-48" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;align=left;labelBackgroundColor=none;" value="VSERVER2&lt;div&gt;&lt;div&gt;Tipo:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Físico&lt;/span&gt;&lt;/div&gt;&lt;div&gt;IP:10.11.20.10&lt;/div&gt;&lt;div&gt;Procesador: Intel Xeon Silver 4210 CPU @ 2.10GHz (20 Cores)&lt;/div&gt;&lt;div&gt;RAM: 64 GB&lt;/div&gt;&lt;div&gt;Disco Duro: 2 TB&lt;br&gt;S.O. Windows Server 2022 Standard&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="-1520" y="-1610" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-49" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;labelBackgroundColor=none;" value="&lt;div&gt;WEBSERVER&lt;/div&gt;&lt;div&gt;10.11.20.14&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IP: 10.11.20.14&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 4 core&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RAM: 6 GB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Disco Duro: 100 GB&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O. Windows Server 2019 Standard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="68" x="300" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-52" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;labelBackgroundColor=none;" value="POWERBISERVER&lt;div&gt;10.11.20.5&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IP: 10.11.20.5&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 10 cores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 24 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 500 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O.&amp;nbsp;Windows Server 2022 Standard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="68" x="-1460" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-53" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;labelBackgroundColor=none;" value="SISROD3&lt;div&gt;10.11.20.3&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IP: 10.11.20.3&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 8 cores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 24 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 500 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O.&amp;nbsp;Windows Server 2019 Standard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="68" x="-1230" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-54" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;labelBackgroundColor=none;" value="WEBRODALL&lt;br&gt;&lt;div&gt;10.11.20.4&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Virtual&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IP: 10.11.20.4&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. 2 cores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 6 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 300 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O.&amp;nbsp;Windows Server 2019 Standard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="68" x="-1000" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-55" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;align=center;labelBackgroundColor=none;" value="APPS&lt;div&gt;10.11.20.6&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo: Servidor Físico&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. Intel Core i5-1135G7 @ 2.40GHz (8 cores)&lt;br&gt;RAM: 16 GB&lt;br&gt;Disco Duro: 500 GB&lt;br&gt;S.O.&amp;nbsp;Ubuntu 22.04.5 LTS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="590" y="-1610" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-58" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" target="IiKdO6yPKxUXOVUFr1vI-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="-1410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-56" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;align=center;labelBackgroundColor=none;" value="BACKUPSERVER&lt;div&gt;10.11.20.250&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo: Servidor Físico&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Intel Core i5-10400 CPU @ 2.90GHz (12 cores)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RAM: 8 GB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Disco Duro: 1 TB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;S.O. Windows Server 2019 Standard&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="950" y="-1610.0000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-57" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Just_Drive-2807/1403708877_External_Drive-Black-1008.png" value="&lt;div&gt;Backups&lt;/div&gt;&lt;div&gt;-&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo: Disco Duro Físico&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. -&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;RAM: -&lt;/div&gt;&lt;div&gt;Disco Duro: 8 TB&lt;/div&gt;&lt;div&gt;S.O.: -&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="89" width="89" x="820" y="-1302" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-60" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;align=center;labelBackgroundColor=none;" value="ROSERVER4&lt;div&gt;10.11.20.230&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo: Servidor Físico&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Intel Xeon CPU E5-2620 v4 @ 2.10GHz&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 16 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 2 TB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O. Windows Server 2016 Standar&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="1250" y="-1610.0000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-61" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;align=center;labelBackgroundColor=none;" value="ROSERVER2&lt;div&gt;10.11.20.240&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo: Servidor Físico&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Proc. Intel Core i5-3330 CPU @ 3.00GHz&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 4 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 500 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O. Windows 8.1 Pro&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="1520" y="-1610.0000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-62" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS TI&lt;br&gt;10.11.21.X" vertex="1">
+          <mxGeometry height="80" width="86.95" x="139.99999999999994" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-63" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;align=center;labelBackgroundColor=none;" value="TESTSERVER&lt;div&gt;10.11.20.8&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Tipo: Servidor Virtual&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IP: 10.11.20.8&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RAM: 9 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disco Duro: 100 GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;S.O.&amp;nbsp;Windows Server 2022 Standard Evaluation&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="1780" y="-1610.0000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-65" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Operating_System__Flat_-2035/linux-751.svg" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="640" y="-1570" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-67" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1560" y="-1670" as="sourcePoint" />
+            <mxPoint x="2000" y="-1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-69" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-880" y="-1360" as="sourcePoint" />
+            <mxPoint x="-1560" y="-1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-70" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="-1360" as="sourcePoint" />
+            <mxPoint x="-800" y="-1359.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-71" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="-1720" as="sourcePoint" />
+            <mxPoint y="-2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-73" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS ARANCELARIOS&lt;br&gt;10.11.21.X" vertex="1">
+          <mxGeometry height="80" width="86.95" x="342.48" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-75" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS VALIDADORES&lt;div&gt;10.11.21.X&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="542.48" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-76" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS CONTABILIDAD&lt;div&gt;10.11.21.X&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="742.48" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-77" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS EJECUTIVAS DE CUENTA&lt;div&gt;10.11.21.X&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="942.48" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-78" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS&amp;nbsp; CALIDAD&lt;div&gt;10.11.21.X&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="1139.51" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-79" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS EJECUTIVAS LOGISTICA&lt;div&gt;&lt;div&gt;10.11.21.X&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="140" y="-1884.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-80" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS OPERACIONES&lt;div&gt;&lt;div&gt;10.11.21.X&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="342.48" y="-1884.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-81" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS FACTURACION&lt;div&gt;&lt;div&gt;10.11.21.X&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="542.48" y="-1884.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-82" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS JURIDICO&lt;div&gt;&lt;div&gt;10.11.21.X&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="742.48" y="-1884.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-83" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="USUARIOS DIRECTIVOS&lt;div&gt;&lt;div&gt;10.11.21.X&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="942.48" y="-1884.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-84" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="-1900" as="sourcePoint" />
+            <mxPoint x="10" y="-1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-85" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-40" y="-1774.95" as="sourcePoint" />
+            <mxPoint x="-240" y="-1774.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-86" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1480" y="-1620" as="sourcePoint" />
+            <mxPoint x="-1480" y="-1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-87" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-720.28" y="-1620" as="sourcePoint" />
+            <mxPoint x="-720.28" y="-1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-89" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="629.03" y="-1620" as="sourcePoint" />
+            <mxPoint x="629.03" y="-1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-90" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="985.72" y="-1620" as="sourcePoint" />
+            <mxPoint x="985.72" y="-1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-91" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1289.77" y="-1620" as="sourcePoint" />
+            <mxPoint x="1289.77" y="-1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-92" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1559.5999999999997" y="-1620" as="sourcePoint" />
+            <mxPoint x="1559.5999999999997" y="-1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-93" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1819.5999999999997" y="-1620" as="sourcePoint" />
+            <mxPoint x="1819.5999999999997" y="-1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-94" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1480.45" y="-1410" as="sourcePoint" />
+            <mxPoint x="-1480.45" y="-1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-95" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-720.62" y="-1410" as="sourcePoint" />
+            <mxPoint x="-720.62" y="-1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-98" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1440" y="-1310" as="sourcePoint" />
+            <mxPoint x="-1440" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-99" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1210" y="-1310" as="sourcePoint" />
+            <mxPoint x="-1210" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-100" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-980" y="-1310" as="sourcePoint" />
+            <mxPoint x="-980" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-101" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-693.85" y="-1310" as="sourcePoint" />
+            <mxPoint x="-693.85" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-103" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-490" y="-1310" as="sourcePoint" />
+            <mxPoint x="-490" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-105" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-288.86" y="-1310" as="sourcePoint" />
+            <mxPoint x="-288.86" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-106" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-120" y="-1310" as="sourcePoint" />
+            <mxPoint x="-120" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-107" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="-1310" as="sourcePoint" />
+            <mxPoint x="100" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-108" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="-1310" as="sourcePoint" />
+            <mxPoint x="310" y="-1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-109" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-733" y="-1990" as="sourcePoint" />
+            <mxPoint x="-733" y="-2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-111" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-793" y="-1900" as="sourcePoint" />
+            <mxPoint x="-273" y="-1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-112" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-740" y="-1824.5" as="sourcePoint" />
+            <mxPoint x="-740" y="-1884.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-113" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-600" y="-1824.5" as="sourcePoint" />
+            <mxPoint x="-600" y="-1884.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-114" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-466.42" y="-1824.5" as="sourcePoint" />
+            <mxPoint x="-466.42" y="-1884.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-115" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-330" y="-1824.5" as="sourcePoint" />
+            <mxPoint x="-330" y="-1884.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-116" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;APLICACIONES&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DATA AREHOUSE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;POWERBI REPORTES&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="-1477.28" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-117" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;DESARROLLO DE SISRODV3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="-1230" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-118" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;WEB RODALL.COM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="-1004.46" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-120" parent="1" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/databases/SQL_Server_Registries.svg;labelBackgroundColor=none;" value="&lt;span style=&quot;&quot;&gt;BASES DE DATOS:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MYSQL&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SISROD&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ECLIENTES&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;CORRESPONSALES&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;EREPORTES&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;NOTIRODALL&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;SQL SERVER&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SAGAWIN&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;MULTIPAGOS&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="87.74" x="-780.54" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-122" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SAGAWIN ACERO&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SAGAWIN EMPRESAS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SAGAWEB&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;APIS DE SAGAWIN:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MULTIPAGOS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SISRODV3&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="-470.00000000000006" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-123" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-432.07000000000005" y="-1080" as="sourcePoint" />
+            <mxPoint x="-432.07000000000005" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-124" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;PASSBOLT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="-326.96000000000004" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-125" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-288.93" y="-1080" as="sourcePoint" />
+            <mxPoint x="-288.93" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-126" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;br&gt;SISRODV2&lt;div&gt;CHECADOR&lt;/div&gt;&lt;div&gt;NUXEO&lt;/div&gt;&lt;div&gt;SISTEMA DE TICKETS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="-77" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-127" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-740" y="-1730" as="sourcePoint" />
+            <mxPoint x="-740" y="-1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-128" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-600" y="-1730" as="sourcePoint" />
+            <mxPoint x="-600" y="-1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-129" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-466.25" y="-1730" as="sourcePoint" />
+            <mxPoint x="-466.25" y="-1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-131" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-330" y="-1730" as="sourcePoint" />
+            <mxPoint x="-330" y="-1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-132" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;ECLIENTES&lt;/div&gt;&lt;div&gt;MULTIPAGOS&lt;/div&gt;&lt;div&gt;EREPORTES&lt;/div&gt;&lt;div&gt;CORRESPONSALES&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="280" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-133" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;SISRODV2.5&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="63.08000000000001" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-135" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-545.33" y="-650" as="sourcePoint" />
+            <mxPoint x="-545.33" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-139" parent="1" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;outlineConnect=0;shape=mxgraph.veeam.remote_repository;" value="REPOSITORIOS&lt;div&gt;REPOSITORIO SAGA DOCUMENTOS&lt;/div&gt;&lt;div&gt;REPOSITORIO SISROD&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="80" x="-584.5" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-140" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;br&gt;GLPI&lt;div&gt;ZABBIX&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="591.5400000000001" y="-1362" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-141" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;AOMEI&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="980" y="-1362" as="geometry" />
+        </mxCell>
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-142" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;APLICACIONES&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BACKUPS LOCALES DE BASE DE DATOS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;SAGAWIN (HISTORICO)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;ACTIVE DIRECTORY&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RECURSOS COMPARTIDOS INTERNOS&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;WEB RODALL.COM (VERSION DESCONTINUADA)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;REPO DE CUENTAS DE GASTOS&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;CONTROL DE TRANSPORTES&lt;br&gt;ASPEL-COI&lt;br&gt;PREVALIDADOR CAAREM+&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;SAGA JBCFDI&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;TARIFA RECO VERSION LOCAL (HISTORICO)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="1310" y="-1362" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/databases/SQL_Server_Registries.svg;labelBackgroundColor=none;" value="BASE DE DATOS&lt;div&gt;SQL SERVER&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;SAGAWIN ACERO HISTORICO&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="87.74" x="1153" y="-1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-2" parent="1" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;outlineConnect=0;shape=mxgraph.veeam.remote_repository;" value="BACKUPS DE SERVIDORES" vertex="1">
+          <mxGeometry height="70" width="80" x="824.5" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="864.2399999999999" y="-1080" as="sourcePoint" />
+            <mxPoint x="864.2399999999999" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="-1410" as="sourcePoint" />
+            <mxPoint x="1190" y="-1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-7" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;SAGAWIN AMBIENTE DE PRUEBAS&lt;/div&gt;&lt;div&gt;API SAGAWIN-SISRODV2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="1850" y="-1362" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-8" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" value="RODALL-OPEN" vertex="1">
+          <mxGeometry height="80" width="80" x="-1070" y="-1940" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-9" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" value="RT1" vertex="1">
+          <mxGeometry height="80" width="80" x="-1070" y="-1804.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-860" y="-1720" as="sourcePoint" />
+            <mxPoint x="-860" y="-1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-970" y="-1880" as="sourcePoint" />
+            <mxPoint x="-880" y="-1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-970" y="-1740" as="sourcePoint" />
+            <mxPoint x="-880" y="-1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-13" parent="1" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/databases/SQL_Server_Registries.svg;labelBackgroundColor=none;" value="BASE DE DATOS&lt;div&gt;SQL SERVER&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;SAGAWIN AMBIENTE DE PRUEBAS&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="87.74" x="1700" y="-1330" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1730" y="-1390" />
+              <mxPoint x="1730" y="-1390" />
+            </Array>
+            <mxPoint x="1730" y="-1410" as="sourcePoint" />
+            <mxPoint x="1730" y="-1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-16" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" value="TELEFONOS DE USUARIOS" vertex="1">
+          <mxGeometry height="60" width="75.95" x="-380" y="-2140" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-343" y="-2010" as="sourcePoint" />
+            <mxPoint x="-343" y="-1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-440" y="-2041.25" as="sourcePoint" />
+            <mxPoint x="-240" y="-2041" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-966.43" y="-1080" as="sourcePoint" />
+            <mxPoint x="-966.43" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1191.97" y="-1080" as="sourcePoint" />
+            <mxPoint x="-1191.97" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1439.25" y="-1080" as="sourcePoint" />
+            <mxPoint x="-1439.25" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-752.8" y="-1080" as="sourcePoint" />
+            <mxPoint x="-752.8" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-38.97" y="-1080" as="sourcePoint" />
+            <mxPoint x="-38.97" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="101.11000000000001" y="-1080" as="sourcePoint" />
+            <mxPoint x="101.11000000000001" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="318.03" y="-1080" as="sourcePoint" />
+            <mxPoint x="318.03" y="-1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="628.81" y="-1410" as="sourcePoint" />
+            <mxPoint x="628.81" y="-1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1018.15" y="-1410" as="sourcePoint" />
+            <mxPoint x="1018.15" y="-1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1348.15" y="-1410" as="sourcePoint" />
+            <mxPoint x="1348.15" y="-1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1890" y="-1410" as="sourcePoint" />
+            <mxPoint x="1890" y="-1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-30" parent="1" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/databases/SQL_Server_Registries.svg;labelBackgroundColor=none;" value="&lt;span style=&quot;&quot;&gt;BASES DE DATOS:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MYSQL&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SISRODV2&lt;/span&gt;&lt;/li&gt;&lt;li&gt;SISTEMA DE TICKETS&lt;/li&gt;&lt;/ul&gt;POSTGRESS&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;CHECADOR&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="87.74" x="-200" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-170" y="-1080" as="sourcePoint" />
+            <mxPoint x="-170" y="-1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1449" y="-1110" as="sourcePoint" />
+            <mxPoint x="1449.17" y="-1059" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-33" parent="1" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;outlineConnect=0;shape=mxgraph.veeam.remote_repository;" value="REPOSITORIOS HISTORICOS&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DOCUMENTACION PUBLICA&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DOCUMENTACION INTERNA&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="80" x="1410" y="-1049" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-34" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="ALICACIONES&lt;div&gt;JBCFDI ALCANCE&lt;/div&gt;&lt;div&gt;SAGA EMPRESAS HISTORICO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="76.92" x="1443.08" y="-1362" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1480.95" y="-1410" as="sourcePoint" />
+            <mxPoint x="1480.95" y="-1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-36" parent="1" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/databases/SQL_Server_Registries.svg;labelBackgroundColor=none;" value="BASE DE DATOS&lt;div&gt;SQL SERVER EXPRESS&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;JBCFDI ALCANCE&lt;/li&gt;&lt;li&gt;SAGA EMPRESAS HISTORICO&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="87.74" x="1600" y="-1090" as="geometry" />
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="-1410" as="sourcePoint" />
+            <mxPoint x="1637" y="-1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pzigw_sB9BMMg6oICVoY-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=35;" value="DIAGRAMA DE INFRAESTRUCTURA Y SERVICIOS DE ASESORES EN COMERCIO EXTERIOR RODALL OSEGUERA" vertex="1">
+          <mxGeometry height="30" width="1930" x="140" y="-599" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
