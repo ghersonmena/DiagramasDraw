@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.1">
   <diagram name="Página-1" id="CnfafAHqDuQhHjIK7ZDh">
-    <mxGraphModel dx="3555" dy="3337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6407" dy="4835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Pzigw_sB9BMMg6oICVoY-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="1870" width="3867" x="-1597" y="-2300" as="geometry" />
+          <mxGeometry height="1870" width="3867" x="-1630" y="-2310" as="geometry" />
         </mxCell>
         <mxCell id="IiKdO6yPKxUXOVUFr1vI-1" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;align=left;labelBackgroundColor=none;" value="VSERVER&lt;div&gt;Tipo:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Servidor&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Físico&lt;/span&gt;&lt;/div&gt;&lt;div&gt;IP:10.11.20.20&lt;/div&gt;&lt;div&gt;Procesador: 2 Intel Xeon Silver 4310 CPU @ 2.10GHz (48 Cores)&lt;/div&gt;&lt;div&gt;RAM: 64 GB&lt;/div&gt;&lt;div&gt;Disco Duro: 4 TB&lt;br&gt;S.O. Windows Server 2022 Standard&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="-760" y="-1610" as="geometry" />
@@ -371,7 +371,7 @@
             <mxPoint x="-330" y="-1690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiKdO6yPKxUXOVUFr1vI-132" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;ECLIENTES&lt;/div&gt;&lt;div&gt;MULTIPAGOS&lt;/div&gt;&lt;div&gt;EREPORTES&lt;/div&gt;&lt;div&gt;CORRESPONSALES&lt;/div&gt;" vertex="1">
+        <mxCell id="IiKdO6yPKxUXOVUFr1vI-132" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;ECLIENTES&lt;/div&gt;&lt;div&gt;MULTIPAGOS&lt;/div&gt;&lt;div&gt;EREPORTES&lt;/div&gt;&lt;div&gt;SOCIOS COMERCIALES&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="76.92" x="280" y="-1030" as="geometry" />
         </mxCell>
         <mxCell id="IiKdO6yPKxUXOVUFr1vI-133" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic" value="APLICACIONES&lt;div&gt;SISRODV2.5&lt;/div&gt;" vertex="1">
@@ -454,7 +454,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Pzigw_sB9BMMg6oICVoY-16" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" value="TELEFONOS DE USUARIOS" vertex="1">
-          <mxGeometry height="60" width="75.95" x="-380" y="-2140" as="geometry" />
+          <mxGeometry height="60" width="75.95" x="-380" y="-2270" as="geometry" />
         </mxCell>
         <mxCell id="Pzigw_sB9BMMg6oICVoY-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -464,8 +464,8 @@
         </mxCell>
         <mxCell id="Pzigw_sB9BMMg6oICVoY-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-440" y="-2041.25" as="sourcePoint" />
-            <mxPoint x="-240" y="-2041" as="targetPoint" />
+            <mxPoint x="-442.03" y="-2110" as="sourcePoint" />
+            <mxPoint x="-242.03" y="-2109.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pzigw_sB9BMMg6oICVoY-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
@@ -572,6 +572,15 @@
         </mxCell>
         <mxCell id="Pzigw_sB9BMMg6oICVoY-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=35;" value="DIAGRAMA DE INFRAESTRUCTURA Y SERVICIOS DE ASESORES EN COMERCIO EXTERIOR RODALL OSEGUERA" vertex="1">
           <mxGeometry height="30" width="1930" x="140" y="-599" as="geometry" />
+        </mxCell>
+        <mxCell id="pbqjPdVuEwttJhFAA0A0-3" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" value="SBC&lt;div&gt;10.11.21.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="86.95" x="-385.5" y="-2090" as="geometry" />
+        </mxCell>
+        <mxCell id="pbqjPdVuEwttJhFAA0A0-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-342.69" y="-2170" as="sourcePoint" />
+            <mxPoint x="-342.69" y="-2130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
